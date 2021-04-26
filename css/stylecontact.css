@@ -1,0 +1,164 @@
+*{margin:0;padding:0;scroll-behavior: smooth;
+transition:all 0.1s ease-in-out;
+font-family: 'Merriweather', serif;
+}
+.section-margin{
+	margin:100px 0;
+}
+
+.front-cover{
+	width:100%;
+	background-image:url(../images/b4.jpg);
+	background-position:center center;
+    background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.contact-wrapper{
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr;
+	margin:100px 100px 0;
+
+}
+.get-in-touch-container h2{
+	font-size:4em;
+	color:#d84b02;
+	margin:50px 0;
+}
+.get-in-touch-container h2 span{
+	border-bottom: 2px solid #d84b02;
+}
+.get-in-touch-container p{
+	font-size:2.5em;
+	color:#f2f2f2;
+	margin:10px;
+	font-weight:bold;
+}
+.get-in-touch-container p span{
+	color:#d84b02;
+}
+.restaurant-work-hour{
+	padding:20px;
+	background-color:rgba(0,0,0,0.7);
+}
+.restaurant-work-hour h4{
+	color:#d84b02;
+}
+.restaurant-work-hour p{
+	margin:0;
+}
+.restaurant-work-hour span{
+	color:#f2f2f2;
+}
+.contact-form{
+	margin:50px 0 0;
+	padding:50px 20px 30px;
+	background-color:rgba(0,0,0,0.9);
+    text-align:center;
+}
+.contact-form input[type='text'], .contact-form input[type='email'], .contact-form input[type='tel'], .contact-form textarea{
+	width:100%;
+	background:transparent;
+	color:#d84b02;
+	outline:none;
+	border:none;
+	border-bottom: 2px solid #d84b02;
+	padding:10px 0 ;
+	margin:5px 0;
+}
+.contact-form input[type='submit']{
+	padding:15px 30px;
+	width:200px;
+	font-size:20px;
+	color:#d84b02;
+	border-radius:5px;
+	border:2px solid #d84b02;
+	background:transparent;
+	margin:0 auto;
+}
+.googlemap{
+	position:relative;
+	margin-top:100px;
+}
+
+@media only screen and (max-width: 760px) {
+
+.contact-wrapper{
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr;
+	margin:140px 30px 0;
+    padding-bottom:50px;
+}
+.googlemap{
+	position:relative;
+   
+}
+.contact-form{
+	margin:0;
+	padding:50px 5px 10px;
+	background-color:black;
+}
+.get-in-touch-container{
+	text-align:center;
+}
+.get-in-touch-container h2{
+	font-size:3em;
+	color:#d84b02;
+	margin-bottom:30px;
+}
+.get-in-touch-container h2 span{
+	border-bottom: 2px solid #d84b02;
+}
+.get-in-touch-container p{
+	font-size:1.5em;
+	color:#cccccc;
+	margin:5px;
+}
+.get-in-touch-container p span{
+	color:#d84b02;
+}
+.restaurant-work-hour{
+	padding:10px;
+	background-color:rgba(0,0,0,0.7);
+}
+.restaurant-work-hour h4{
+	color:#d84b02;
+}
+.restaurant-work-hour p{
+	margin:0;
+}
+.contact-form{
+	margin:50px 0 0;
+	padding:50px 20px 0;
+	background-color:rgba(0,0,0,0.8);
+}
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .section-margin{
+	  margin:20px 0;
+  }
+   .top-header{
+	     height:80px;
+
+  }
+  .top-header-container{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	font-size:12px;
+  }
+    .top-left-header{
+    	transform: translateY(50%);
+	}
+  .top-right-header{
+	      	transform: translateY(50%);
+	}
+  
+}

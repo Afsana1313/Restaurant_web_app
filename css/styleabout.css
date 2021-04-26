@@ -1,0 +1,113 @@
+*{margin:0;padding:0;scroll-behavior: smooth;
+transition:all 0.1s ease-in-out;
+font-family: 'Merriweather', serif;
+}
+.section-margin{
+	margin:100px 0;
+}
+
+.front-cover{
+	width:100%;
+	height:800px;
+	background-image:url(../images/u2.jpg);
+	background-position:center center;
+    background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.banner-container p{
+	font-size:6em;
+	color:#f2f2f2;
+	text-shadow:-2px 2px #666666;
+}
+#about{
+	background-image:url(../images/u8.jpg), url(../images/u5.jpg);
+	background-position:center center;
+    background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.about-us-container{
+	display:grid;
+	grid-gap:10px;
+	grid-row-gap:50px;
+	grid-template-columns:1fr 1fr;
+	position:relative;
+	padding:50px 30px;
+	margin:100px 5%;
+	
+	background-color:rgba(255,255,255,0.7);
+}
+.about-us-box img{
+	width:40vw;
+	object-fit:contain;
+}
+.about-us-content{
+	padding:0 20px;
+	margin:0 20px;
+	line-height:2em;
+}
+h2.about-us-title{
+	font-size:3em;
+	color:#d84b02;
+	font-weight:500;
+	margin:10px 0;
+}
+h3.about-us-title{
+	font-size:3.5em;
+	color:#191919;
+	font-weight:bold;
+	margin:10px 0;
+}
+@media only screen and (max-width: 1200px) {
+  .section-margin{
+	  margin:20px 0;
+  }
+   .top-header{
+	     height:80px;
+
+  }
+  .top-header-container{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	font-size:12px;
+  }
+    .top-left-header{
+    	transform: translateY(50%);
+	}
+  .top-right-header{
+	      	transform: translateY(50%);
+	}
+  .about-us-container{
+	  	grid-template-columns:1fr;
+
+  }
+  .about-us-box{
+	  text-align:center;
+  }
+  .about-us-box img{
+	width:100%;
+	object-fit:contain;
+	
+}
+ .about-us-content{
+	padding:0 10px;
+	margin:0 10px;
+	line-height:1.7em;
+}
+h2.about-us-title{
+	font-size:2em;
+	color:#d84b02;
+	font-weight:500;
+	margin:7px 0;
+}
+h3.about-us-title{
+	font-size:2.5em;
+	color:#191919;
+	font-weight:bold;
+	margin:7px 0;
+} 
+}
